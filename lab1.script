@@ -1,0 +1,79 @@
+命令稿啟動於 2017年03月11日 (週六) 00時49分27秒
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ whoami; pws[Kd
+ming
+/home/ming
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git config -l
+user.name=redstar-ryo
+user.email=e6v2e3@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.a.url=b
+remote.a.fetch=+refs/heads/*:refs/remotes/a/*
+remote.github.url=https://github.com/redstar-ryo/lab1.git
+remote.github.fetch=+refs/heads/*:refs/remotes/github/*
+branch.master.remote=github
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/redstar-ryo/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ m[Kgit cli[Kone https://github.com/redstar-ryo/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ mv bl[K[Klab1.script lab1
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git push -u r[Korigin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git push -u origin master[1P master[1P master[1P master[1P master[1P master[1P masterl mastera masterb master1 master
+Username for 'https://github.com': y redstar-ryo
+Password for 'https://redstar-ryo@github.com': 
+To https://github.com/redstar-ryo/lab1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/redstar-ryo/lab1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git pullla[K[K lab1.sc[Kcript master
+fatal: 'lab1.script' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git pull lab1.script master[1P master[1P master[1P master[1P master[1P master[1P master[1P master
+remote: Counting objects: 4, done.[K
+remote: Compressing objects:  50% (1/2)   [Kremote: Compressing objects: 100% (2/2)   [Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+From https://github.com/redstar-ryo/lab1
+ * branch            master     -> FETCH_HEAD
+   3748f28..c4e0e5f  master     -> lab1/master
+Updating 3748f28..c4e0e5f
+Fast-forward
+ a | Bin [31m8609[m -> [32m0[m bytes
+ b | Bin [31m8662[m -> [32m0[m bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100755 a
+ delete mode 100755 b
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git pull lab1 master[1P[1P[1P[1P[1@p[1@u[1@s[1@h
+Username for 'https://github.com': reda star-ryo
+Password for 'https://redstar-ryo@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/redstar-ryo/lab1.git/'
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git push lab1 master
+Username for 'https://github.com': redstar-ryo
+Password for 'https://redstar-ryo@github.com': 
+Everything up-to-date
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ vi lab.cpp
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;23r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[23;1H"lab.cpp" [未命名][>c[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;63H0,0-1[8C全部[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[23;1H[K[23;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"lab.cpp" [新] 0L, 0C 已寫入
+[?1l>[?12l[?25h[?1049l]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git add lb[K[K[K[K[K[K[K[K[K[Kvi lab.cppgit push lab1 master[10Pvi lab.cpp[Kvi lab.cpp1.cpp
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;23r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[23;1H"lab1.cpp" [未命名][>cP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;63H0,0-1[8C全部[1;1H[?12l[?25h[?25l[23;1H[K[23;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"lab1.cpp" [新] 0L, 0C 已寫入
+[?1l>[?12l[?25h[?1049l]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ vi lab1.cpp[1P.cppgit push lab1 master[10Pvi lab.cpp1.cpp[K[K[K[K[K[K[K[K[K[K[Kgit add lab13[K.cpp
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git commit
+[?1049h[1;23r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6        檔案: /home/ming/.git/COMMIT_EDITMSG                    [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is ahead of 'github/master' by 2 commits.[8d#   (use "git push" to publish your local commits)[9d#[10d# Changes to be committed:[11d#[9Gnew file:   cpp/lab1.script[12d#[9Gnew file:   lab1.cpp[13d#[14d# Changes not staged for commit:[15d#[9Gmodified:   cpp/lab1.script[16d#[17d# Untracked files:[18d#[9G.ICEauthority[19d#[9G.Xauthority[20d#[9G.bash_history[21;33H(B[0;7m[ 已讀取 67 列 ][22d^G(B[m 求助[14G(B[0;7m^O(B[m 寫入[27G(B[0;7m^R(B[m 讀檔[40G(B[0;7m^Y(B[m 上頁[53G(B[0;7m^K(B[m 剪下文字  (B[0;7m^C(B[m 游標位置[23d(B[0;7m^X(B[m 離開[14G(B[0;7m^J(B[m 對齊[27G(B[0;7m^W(B[m 搜尋[40G(B[0;7m^V(B[m 下頁[53G(B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m 拼字檢查[3d[1;73H(B[0;7m已更動[3d(B[m@[K#[Ktest[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.2.6        檔案: /home/ming/.git/COMMIT_EDITMSG            已更動  [3;1H(B[mtest[4d# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is ahead of 'github/master' by 2 commits.[8d#   (use "git push" to publish your local commits)[9d#[10d# Changes to be committed:[11d#[9Gnew file:   cpp/lab1.script[12d#[9Gnew file:   lab1.cpp[13d#[14d# Changes not staged for commit:[15d#[9Gmodified:   cpp/lab1.script[16d#[17d# Untracked files:[18d#[9G.ICEauthority[19d#[9G.Xauthority[20d#[9G.bash_history[21;33H(B[0;7m[ 已讀取 67 列 ][22d^G(B[m 求助[14G(B[0;7m^O(B[m 寫入[27G(B[0;7m^R(B[m 讀檔[40G(B[0;7m^Y(B[m 上頁[53G(B[0;7m^K(B[m 剪下文字  (B[0;7m^C(B[m 游標位置[23d(B[0;7m^X(B[m 離開[14G(B[0;7m^J(B[m 對齊[27G(B[0;7m^W(B[m 搜尋[40G(B[0;7m^V(B[m 下頁[53G(B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m 拼字檢查[3;5H[21d#[9G.bash_logout[K[22d#       .bashrc[K[23;31H[1K (B[0;7m[ 輔助模式 關閉 ](B[m[K[3;5H7[4;22r8[4dM[1;23r[4;1HXX [K7[4;22r8M[1;23r[5;1H[23d(B[0;7m儲存更動過的緩衝區嗎 (回答 "No" 會撤銷修改)？                                  [?7l [?7h[23;47H(B[m(B[0;7m要寫入的檔案名稱: /home/ming/.git/COMMIT_EDITMSG(B[m(B[0;7me(B[m(B[0;7ms(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m以不同的名稱存檔？                           [23;20H(B[m[39;49m(B[m[J[1;25H(B[0;7m 檔案: /home/ming/.git/COMMIT_EDIT  [73G      [23;80H(B[m[23;1H[?1049l[?1l>Aborting commit due to empty commit message.
+]0;ming@ming-VirtualBox: ~ming@ming-VirtualBox:~$ git push lab1
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from '
