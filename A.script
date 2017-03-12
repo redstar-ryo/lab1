@@ -1,4 +1,45 @@
-命令稿啟動於 2017年03月12日 (週日) 19時01分52秒
+命令稿啟動於 2017年03月12日 (週日) 18時58分17秒
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git push lab1 master[10Pstatus
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   A.cpp[m
+	[32mnew file:   A.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.A.script.swp[m
+	[31mA[m
+	[31mlab1/[m
+
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git statuspush lab1 master[10Pstatus[Kgit add A.script
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git add A.script[6Pstatus
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   A.cpp[m
+	[32mnew file:   A.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.A.script.swp[m
+	[31mA[m
+	[31mlab1/[m
+
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git statusadd A.script[6Pstatus[K[K[K[K[K[Kpull a[Klab1 mad[Kster
+From https://github.com/redstar-ryo/lab1
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git pull lab1 master[1P[1P[1@s[1@h
+Username for 'https://github.com': redstar-ro  yo  ryo
+Password for 'https://redstar-ryo@github.com': 
+Everything up-to-date
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ script lab1.script
+命令稿已啟動，檔案是 lab1.script
 ]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git push lab1 master[Kls
 [0m[01;32mA[0m  A.cpp  A.script  [01;34mlab1[0m  lab1.script
 ]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ 
@@ -184,4 +225,214 @@ Username for 'https://github.com': redstar-ryo
 Password for 'https://redstar-ryo@github.com': 
 Everything up-to-date
 ]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ i[Kgit commit
-[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6      檔案: /home/ming/lab1/.git/COMMIT_EDITMSG                 [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts th
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6      檔案: /home/ming/lab1/.git/COMMIT_EDITMSG                 [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'lab1/master'.[8d#[9d# Changes to be committed:[10d#[9Gnew file:   A.cpp[11d#[9Gnew file:   A.script[12d#[9Gmodified:   lab1.script[13d#[14d# Changes not staged for commit:[15d#[9Gmodified:   A.script[16d#[9Gmodified:   lab1.script[17d#[18d# Untracked files:[19d#[9G.A.script.swp[20d#[9GA[21d#[9Glab1/[22;33H(B[0;7m[ 已讀取 20 列 ][23d^G(B[m 求助[14G(B[0;7m^O(B[m 寫入[27G(B[0;7m^R(B[m 讀檔[40G(B[0;7m^Y(B[m 上頁[53G(B[0;7m^K(B[m 剪下文字  (B[0;7m^C(B[m 游標位置[24d(B[0;7m^X(B[m 離開[14G(B[0;7m^J(B[m 對齊[27G(B[0;7m^W(B[m 搜尋[40G(B[0;7m^V(B[m 下頁[53G(B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m 拼字檢查[3d[1;73H(B[0;7m已更動[3d(B[me[K[22d(B[0;7m要寫入的檔案名稱: /home/ming/lab1/.git/COMMIT_EDITMSG                           [23;14H(B[m       (B[0;7mM-D(B[m DOS 格式 [40G (B[0;7mM-A(B[m 附加            (B[0;7mM-B(B[m 備份檔案[K[24;2H(B[0;7mC(B[m 取消[14G       (B[0;7mM-M(B[m Mac 格式 [40G (B[0;7mM-P(B[m 前引[K[22;54H[1;73H[39;49m(B[0;7m      [22;32H(B[m[1K (B[0;7m[ 已寫入 20 列 ](B[m[K[23;14H(B[0;7m^O(B[m 寫入      (B[0;7m^R(B[m 讀檔[40G(B[0;7m^Y(B[m 上頁      (B[0;7m^K(B[m 剪下文字  (B[0;7m^C(B[m 游標位置[24;2H(B[0;7mX(B[m 離開[14G(B[0;7m^J(B[m 對齊      (B[0;7m^W(B[m 搜尋[40G(B[0;7m^V(B[m 下頁      (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m 拼字檢查[3d[23d[J[24;80H[24;1H[?1049l[?1l>Aborting commit due to empty commit message.
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git commitpush origin master[12Pcommit[K[K[K[K[K[Kstatus
+On branch master
+Your branch is up-to-date with 'lab1/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   A.cpp[m
+	[32mnew file:   A.script[m
+	[32mmodified:   lab1.script[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   A.script[m
+	[31mmodified:   lab1.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.A.script.swp[m
+	[31mA[m
+	[31mlab1/[m
+
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git d[Kadd lab1.script
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git add A.script
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git push lan[Kb1.s[K[K master
+Username for 'https://github.com': redsat   star-ryo
+Password for 'https://redstar-ryo@github.com': 
+Everything up-to-date
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git push lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kremote -v
+lab1	https://github.com/redstar-ryo/lab1.git (fetch)
+lab1	https://github.com/redstar-ryo/lab1.git (push)
+origin	https://github.com/redstar-ryo/lab1.git (fetch)
+origin	https://github.com/redstar-ryo/lab1.git (push)
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git branch
+* [32mmaster[m
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git commti[K[Kit
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6      檔案: /home/ming/lab1/.git/COMMIT_EDITMSG                 [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'lab1/master'.[8d#[9d# Changes to be committed:[10d#[9Gnew file:   A.cpp[11d#[9Gnew file:   A.script[12d#[9Gmodified:   lab1.script[13d#[14d# Untracked files:[15d#[9G.A.script.swp[16d#[9GA[17d#[9Glab1/[18d#[22;33H(B[0;7m[ 已讀取 16 列 ][23d^G(B[m 求助[14G(B[0;7m^O(B[m 寫入[27G(B[0;7m^R(B[m 讀檔[40G(B[0;7m^Y(B[m 上頁[53G(B[0;7m^K(B[m 剪下文字  (B[0;7m^C(B[m 游標位置[24d(B[0;7m^X(B[m 離開[14G(B[0;7m^J(B[m 對齊[27G(B[0;7m^W(B[m 搜尋[40G(B[0;7m^V(B[m 下頁[53G(B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m 拼字檢查[3d[22d(B[0;7m要寫入的檔案名稱: /home/ming/lab1/.git/COMMIT_EDITMSG                           [23;14H(B[m       (B[0;7mM-D(B[m DOS 格式 [40G (B[0;7mM-A(B[m 附加            (B[0;7mM-B(B[m 備份檔案[K[24;2H(B[0;7mC(B[m 取消[14G       (B[0;7mM-M(B[m Mac 格式 [40G (B[0;7mM-P(B[m 前引[K[22;54H(B[0;7m1(B[m(B[0;7m以不同的名稱存檔？                                    [23d Y(B[m 是[K[24d(B[0;7m N(B[m 否  [24;17H(B[0;7m^C(B[m 取消[K[22;20H[1;64H[39;49m(B[0;7m1[22;32H(B[m[1K (B[0;7m[ 已寫入 16 列 ](B[m[K[23d(B[0;7m^G(B[m 求助[14G(B[0;7m^O(B[m 寫入[27G(B[0;7m^R(B[m 讀檔[40G(B[0;7m^Y(B[m 上頁[53G(B[0;7m^K(B[m 剪下文字  (B[0;7m^C(B[m 游標位置[24d(B[0;7m^X(B[m 離開[14G(B[0;7m^J(B[m 對齊      (B[0;7m^W(B[m 搜尋[40G(B[0;7m^V(B[m 下頁[53G(B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m 拼字檢查[3d[23d[J[24;80H[24;1H[?1049l[?1l>Aborting commit due to empty commit message.
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git add A.script
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git pushh[K labadd A.script[K[K[K[K[K[K[K[K[K[K[K[Kpush lab1 master
+Username for 'https://github.com': redstar-ryo
+Password for 'https://redstar-ryo@github.com': 
+Everything up-to-date
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ vi A.cpp
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"A.cpp" 34L, 467C[>c[1;1H[34m/*************************
+input n
+print n
+if n=1 then stop
+if n is odd then n<-3n+1
+if n is even then n<-n/2
+*************************/[m
+
+[35m#include[m[31m<iostream>[m
+[33musing[m [32mnamespace[m std;
+
+[32mint[m main()
+{
+[32mint[m n=[31m0[m;
+
+cout << [31m"Please enter an integer:"[m;
+cin >> n ;
+
+[33mif[m(n==[31m1[m)
+cout << n << endl; [34m//題目條件如果n=1則停止 所以印出n本身[m
+[33melse[m
+{[7C[33mwhile[m(n!=[31m1[m)[23;9H{[24;63H1,1[10C頂端[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8,0-1[8;1H[?12l[?25h[?25l[24;63H9,1  [9;1H[?12l[?25h[?25l[24;63H10,1[10;1H[?12l[?25h[?25l[24;64H1,0-1[11;1H[?12l[?25h[?25l[24;64H2,1  [12;1H[?12l[?25h[27m[m[H[2J[?25l[1;1H[34m/*************************
+input n
+print n
+if n=1 then stop
+if n is odd then n<-3n+1
+if n is even then n<-n/2
+*************************/[m
+
+[35m#include[m[31m<iostream>[m
+[33musing[m [32mnamespace[m std;
+
+[32mint[m main()
+{
+[32mint[m n=[31m0[m;
+
+cout << [31m"Please enter an integer:"[m;
+cin >> n ;
+
+[33mif[m(n==[31m1[m)
+cout << n << endl; [34m//題目條件如果n=1則停止 所以印出n本身[m
+[33melse[m
+{[7C[33mwhile[m(n!=[31m1[m)[23;9H{[24;17H[33mif[m(n%[31m2[m==[31m0[m)[25;17H{n/=[31m2[m;}[26;17H[33melse[m[27;17H{n=[31m3[m*n+[31m1[m;}[29;9Hcout<<n<<[31m" "[m;[30;98H12,1[9C頂端[12;1H[?12l[?25h[?25l[30;99H3[13;1H[?12l[?25h[?25l[30;99H4[14;1H[?12l[?25h[?25l[30;99H5,0-1[15;1H[?12l[?25h[?25l[30;99H6,1  [16;1H[?12l[?25h[?25l[30;99H7[17;1H[?12l[?25h[?25l[30;99H8,0-1[18;1H[?12l[?25h[?25l[30;99H9,1  [19;1H[?12l[?25h[?25l[30;98H20[20;1H[?12l[?25h[?25l[30;99H1[21;1H[?12l[?25h[?25l[30;99H2[22;1H[?12l[?25h[?25l[30;99H3,1-8[23;8H[?12l[?25h[?25l[30;99H4[24;8H[?12l[?25h[?25l[30;99H5[25;8H[?12l[?25h[?25l[30;99H6[26;8H[?12l[?25h[?25l[30;99H7[27;8H[?12l[?25h[?25l[30;99H8,0-1[28;1H[?12l[?25h[?25l[30;99H9,1-8[29;8H[?12l[?25h[?25l[1;29r[29;1H
+[1;30r[29;9H}[30;98H[K[30;98H30,1-8[8C20%[29;8H[?12l[?25h[?25l[1;29r[29;1H
+[1;30r[29;1Hcout<<endl; [34m//讓指令列出現在下一行[m[30;98H[K[30;98H31,1[10C40%[29;1H[?12l[?25h[?25l[1;29r[29;1H
+[1;30r[19;1H[46m{[29;1H}[m[30;98H[K[30;98H32,1[10C60%[29;1H[?12l[?25h[?25l[1;29r[29;1H
+[1;30r[9;1H[46m{[m[18;1H{[28;1H}
+[46m}[m[30;98H[K[30;98H33,1[10C80%[29;1H[?12l[?25h[?25l[9;1H{[18;1H[46m{[28;1H}[m
+}[30;99H2[28;1H[?12l[?25h[?25l[18;1H{[28;1H}[30;99H1[27;1H[?12l[?25h[?25l[30;99H0,1-8[26;8H[?12l[?25h[?25l[30;98H29[25;8H[?12l[?25h[?25l[30;99H8,0-1[24;1H[?12l[?25h[?25l[30;99H7,1-8[23;8H[?12l[?25h[?25l[30;99H6[22;8H[?12l[?25h[?25l[30;99H5[21;8H[?12l[?25h[?25l[30;101H2-16[21;16H[?12l[?25h[?25l [46m{[5C}[m[30;101H3-17[21;17H[?12l[?25h[?25l{[5C}[30;101H4-18[21;18H[?12l[?25h[?25l[30;101H5-19[21;19H[?12l[?25h[?25l[30;1H[1m-- 插入 --[m[30;98H[K[30;98H25,5-19[7C80%[21;19H[?12l[?25h[?25l[46m{[5C}[m[30;98H[K[30;98H25,4-18[7C80%[21;18H[?12l[?25h[?25l[30;101H3-17[21;17H[?12l[?25h[?25l[30;98H[K[30;98H25,4-18[7C80%[21;18H[?12l[?25h[?25l[46mn[m/=[31m2[m;}[46m [m[21;17Hn[21;23H[K[30;101H3-17[21;17H[?12l[?25h[?25l[30;101H4-18[21;18H[?12l[?25h[?25l[30;101H5-19[21;19H[?12l[?25h[?25l[30;101H6-20[21;20H[?12l[?25h[?25l[30;101H7-21[21;21H[?12l[?25h[?25l[19;9H[46m{[21;22H}[m[30;101H8-22[21;22H[?12l[?25h[?25l[30;98H[K[30;98H25,9-23[7C80%[21;23H[?12l[?25h[?25l[21;22H[K[19;9H{[30;101H8-22[21;22H[?12l[?25h[?25l[30;99H6[22;22H[?12l[?25h[?25l[30;99H7[23;22H[?12l[?25h[?25l[30;101H7-21[23;21H[?12l[?25h[?25l[30;101H6-20[23;20H[?12l[?25h[?25l[30;101H5-19[23;19H[?12l[?25h[?25l[46m{[8C}[m[30;98H[K[30;98H27,4-18[7C80%[23;18H[?12l[?25h[?25l[30;101H3-17[23;17H[?12l[?25h[?25l{[8C}[30;99H8,1   [24;1H[?12l[?25h[?25l[30;99H9,10-17[25;17H[?12l[?25h[?25l[30;99H8,1    [24;1H[?12l[?25h[?25l[23;17H[46m{[8C}[m[30;99H7,3-17[23;17H[?12l[?25h[?25l{[8C}[30;99H6[22;17H[?12l[?25h[?25l[30;99H5[21;17H[?12l[?25h[?25l[30;99H4[20;17H[?12l[?25h[?25l[19;9H[46m{[26;9H}[m[30;98H[K[30;98H23,3-10[7C80%[19;10H[?12l[?25h[?25l{[26;9H}[30;99H4,3-17[20;17H[?12l[?25h[?25l[30;99H5[21;17H[?12l[?25h[?25l[30;99H6[22;17H[?12l[?25h[?25l[23;17H[46m{[8C}[m[30;99H7[23;17H[?12l[?25h[?25l{[8C}[30;99H8,1   [24;1H[?12l[?25h[?25l[30;99H9,10-17[25;17H[?12l[?25h[?25l[19;9H[46m{[26;9H}[m[30;98H[K[30;98H30,3-10[7C80%[26;10H[?12l[?25h[30;1H[K[26;9H[?25l[30;98H30,2-9[8C80%[26;9H[?12l[?25h[?25l[30;98H[K[30;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"A.cpp" 34L, 465C 已寫入
+[?1l>[?12l[?25h[?1049l]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ vi A.cppgit push lab1 master[4Padd A.scriptpush lab1 master[12Pvi A.cpp[Kh[Kg=+[K[K++ -o A A.cpp
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ ./a[KA
+Please enter an integer:22
+11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ ./A[Kgit status
+On branch master
+Your branch is up-to-date with 'lab1/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   A.cpp[m
+	[32mnew file:   A.script[m
+	[32mmodified:   lab1.script[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   A.cpp[m
+	[31mmodified:   A.script[m
+	[31mmodified:   lab1.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.A.script.swp[m
+	[31mA[m
+	[31mlab1/[m
+
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git add A.cpp
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git add a[KA.script
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git status
+On branch master
+Your branch is up-to-date with 'lab1/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   A.cpp[m
+	[32mnew file:   A.script[m
+	[32mmodified:   lab1.script[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   lab1.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.A.script.swp[m
+	[31mA[m
+	[31mlab1/[m
+
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ re[K[Kgit remote -v
+lab1	https://github.com/redstar-ryo/lab1.git (fetch)
+lab1	https://github.com/redstar-ryo/lab1.git (push)
+origin	https://github.com/redstar-ryo/lab1.git (fetch)
+origin	https://github.com/redstar-ryo/lab1.git (push)
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git pu[K[Kcommit
+[?1049h[1;30r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                  檔案: /home/ming/lab1/.git/COMMIT_EDITMSG                                        [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'lab1/master'.[8d#[9d# Changes to be committed:[10d#[9Gnew file:   A.cpp[11d#[9Gnew file:   A.script[12d#[9Gmodified:   lab1.script[13d#[14d# Changes not staged for commit:[15d#[9Gmodified:   lab1.script[16d#[17d# Untracked files:[18d#[9G.A.script.swp[19d#[9GA[20d#[9Glab1/[21d#[28;50H(B[0;7m[ 已讀取 19 列 ][29d^G(B[m 求助[29;20H(B[0;7m^O(B[m 寫入[29;39H(B[0;7m^R(B[m 讀檔[29;58H(B[0;7m^Y(B[m 上頁[29;77H(B[0;7m^K(B[m 剪下文字[29;96H(B[0;7m^C(B[m 游標位置[30d(B[0;7m^X(B[m 離開[30;20H(B[0;7m^J(B[m 對齊[30;39H(B[0;7m^W(B[m 搜尋[30;58H(B[0;7m^V(B[m 下頁[30;77H(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m 拼字檢查[3d[28d(B[0;7m要寫入的檔案名稱: /home/ming/lab1/.git/COMMIT_EDITMSG                                                              [29;20H(B[m         (B[0;7mM-D(B[m DOS 格式     [29;57H(B[0;7mM-A(B[m 附加[29;77H        (B[0;7mM-B(B[m 備份檔案[K[30;2H(B[0;7mC(B[m 取消[30;20H         (B[0;7mM-M(B[m Mac 格式     [30;57H(B[0;7mM-P(B[m 前引[K[28;54H[49G[39;49m(B[m[1K (B[0;7m[ 已寫入 19 列 ](B[m[K[29;20H(B[0;7m^O(B[m 寫入            (B[0;7m^R(B[m 讀檔[29;57H (B[0;7m^Y(B[m 上頁[29;77H(B[0;7m^K(B[m 剪下文字        (B[0;7m^C(B[m 游標位置[30;2H(B[0;7mX(B[m 離開[30;20H(B[0;7m^J(B[m 對齊            (B[0;7m^W(B[m 搜尋[30;57H (B[0;7m^V(B[m 下頁[30;77H(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m 拼字檢查[3d[29d[J[30;115H[30;1H[?1049l[?1l>Aborting commit due to empty commit message.
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git push ro[K[Klab1 master
+Username for 'https://github.com': redstar-ryp o
+Password for 'https://redstar-ryo@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/redstar-ryo/lab1.git/'
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git push lab1 master
+Username for 'https://github.com': redstar-ryo
+Password for 'https://redstar-ryo@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/redstar-ryo/lab1.git/'
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git push lab1 master
+Username for 'https://github.com': derst     redstar-ryo
+Password for 'https://redstar-ryo@github.com': 
+Everything up-to-date
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git branc
+git: 'branc' is not a git command. See 'git --help'.
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git branch
+* [32mmaster[m
+]0;ming@ming-VirtualBox: ~/lab1ming@ming-VirtualBox:~/lab1$ git log
+[?1h=[33mcommit 0007e949421507d9226de57405d8bd3cfb5d619e[m[m
+Merge: f5259e6 c4e0e5f[m
+Author: redstar-ryo <e6v2e3@gmail.com>[m
+Date:   Sat Mar 11 23:29:15 2017 +0800[m
+[m
+    Merge branch 'master' of https://github.com/redstar-ryo/lab1[m
+[m
+[33mcommit f5259e611ad8a8c2e1c441789cb3774bc7fe6c3d[m[m
+Author: redstar-ryo <e6v2e3@gmail.com>[m
+Date:   Sat Mar 11 23:21:59 2017 +0800[m
+[m
+    test for lab1.script[m
+[m
+[33mcommit c4e0e5fde4e389fdc107401f25d76899c7c02735[m[m
+Author: redstar-ryo <e6v2e3@gmail.com>[m
+Date:   Wed Mar 8 23:56:20 2017 +0800[m
+[m
+    Delete b[m
+[m
+[33mcommit a50cac79a044126b8837637587cb095a0f79457f[m[m
+Author: redstar-ryo <e6v2e3@gmail.com>[m
+Date:   Wed Mar 8 23:56:09 2017 +0800[m
+[m
+    Delete a[m
+[m
+[33mcommit 3748f288abc8bd980accee94754e0446462fd8ab[m[m
+Author: redstar-ryo <e6v2e3@gmail.com>[m
+Date:   Wed Mar 8 23:13:07 2017 +0800[m
+[m
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K
