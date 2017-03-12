@@ -1,0 +1,20 @@
+
+Author:林伊儒<F74056158@mail.ncku.edu.tw>
+
+description:
+This program can read in an integer and print out the corresponding sequence of numbers.
+Rule:
+1.input n
+2.print n first
+3.  if n=1 then stop
+    else if n is odd then n←3n+1
+        else n←n/2
+4.Print out all the numbers that was calculated by Rule3 until n=1.
+
+
+compilation:g++ -o A A.cpp
+execution:./A
+
+output:
+Please enter an integer:22
+22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
