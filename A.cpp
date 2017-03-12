@@ -27,7 +27,7 @@ else
 		else 
 		{n=3*n+1;}
 
-	cout<< n <<" ";
+	cout << n <<" ";
 	}
 cout << endl; //讓指令列出現在下一行
 }
